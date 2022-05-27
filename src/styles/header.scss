@@ -1,0 +1,40 @@
+$color_1: black;
+$background-color_1: #292958;
+$background-color_2: rgb(255, 255, 255);
+$background-color_3: rgb(255, 255, 255);
+
+.bg-dark {
+  background-color: $background-color_1 !important;
+}
+.nav-link {
+  position: relative;
+}
+.cart {
+  position: absolute;
+  background-color: $background-color_2;
+  width: 19px;
+  height: 20px;
+  border-radius: 50%;
+  color: $color_1;
+  text-align: center;
+  top: 4px;
+  left: -5px;
+}
+form {
+  background-color: $background-color_3;
+  border-radius: 100px;
+  padding: 0 20px;
+}
+input {
+  border: 0;
+  font-size: 0.875rem;
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 700px) {
+  form {
+    flex-flow: row !important;
+    margin-top: 20px;
+  }
+}
