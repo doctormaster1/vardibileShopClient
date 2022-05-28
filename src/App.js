@@ -1,4 +1,3 @@
-import { Container } from "react-bootstrap";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
@@ -10,11 +9,9 @@ function App() {
     <BrowserRouter>
       <Header />
       <main>
-        <Container>
-          <Routes>
-            <Route exact={true} path={routes.HOME} element={<Home />} />
-          </Routes>
-        </Container>
+        <Routes>
+          <Route exact={true} path={routes.HOME} element={<Home />} />
+        </Routes>
       </main>
       <Footer />
     </BrowserRouter>

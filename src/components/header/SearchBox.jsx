@@ -28,7 +28,7 @@ const SearchBox = () => {
         placeholder="Ürün Ara..."
         className="mr-sm-2"
       />
-      <i className="fas fa-search"></i>
+      <i className="fas fa-search" />
     </Form>
   );
 };
