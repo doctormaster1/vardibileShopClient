@@ -12,7 +12,7 @@ function App() {
       <main>
         <Container>
           <Routes>
-            <Route exact={true} path={routes.HOME} component={Home} />
+            <Route exact={true} path={routes.HOME} element={<Home />} />
           </Routes>
         </Container>
       </main>
