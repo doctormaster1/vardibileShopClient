@@ -20,7 +20,7 @@ const SearchBox = () => {
   };
 
   return (
-    <Form inline onSubmit={handleSubmit}>
+    <Form onSubmit={handleSubmit}>
       <FormControl
         type="text"
         name="seacrh"
